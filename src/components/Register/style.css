@@ -1,0 +1,97 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.link-fb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1e418d;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.link-fb:hover {
+    background-color: #083cad;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+.social-icon.facebook {
+    color: #fff;
+}
+
+.link-go {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #dd4b39;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-left: 5em;
+}
+
+.link-go:hover {
+    background-color: #db270f;
+    transition: all ease-in-out 0.3s;
+}
+
+.social-icon.google {
+    color: #fff;
+}
